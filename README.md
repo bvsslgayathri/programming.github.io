@@ -1,143 +1,26 @@
 # programming.github.io
 welcome to programming
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-<style type="text/css">
-	*
-{
+<link rel="stylesheet" type="text/css" href="blog1.css" />
 
-margin: 0;
-padding: 0;
-
-}
-.web
-{
-height: 100vh;
-width: 100%;
-background: url(sky.jpg);
-background-size:cover;
-background-position: center;
-position: relative;
-overflow-x: hidden;
-
-}
-.highway
-{
-	height: 200px;
-	width: 500%;
-	display: block;
-	background-image: url(road.jpg);
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: 1;
-	background-repeat: repeat-x;
-
-	animation: highway 10s linear infinite;
-
-}
-.city
-{
-	height: 200px;
-	width: 500%;
-	display: block;
-	background-image: url(city.jpg);
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: 1;
-	background-repeat: repeat-x;
-	animation: city 20s linear infinite;
-
-}
-.car{
-	width: 400px;
-	left: 50%;
-	bottom: 99px;
-	transform: translate(-50%);
-	position: absolute;
-	z-index: 2;
-}
-.car img
-{
-	width: 100%;
-	animation: car 1s linear infinite;
-}
-.wheel
-{
-	left: 50%;
-	bottom:178px;
-	transform: translateX(-50%);
-	position: absolute;
-	z-index: 2;
-
-}
-.wheel img
-{
-	width: 72px;
-	height: 72px;
-	animation: wheel 1s linear infinite;
-}
-.back-wheel{
-	left:-165px;
-	position: absolute;
-}
-.front-wheel{
-	left:80px;
-	position: absolute;
-}
-@keyframes wheel
-{
-	100%{
-		transform: rotate(360deg);
-			}
-}
-@keyframes car{
-100%{
-	transform: translateY(-1px);
-}
-50%{
-	transform: translateY(1px);
-}
-0%{
-	transform: translateY(-1px);
-}
-}
-@keyframes city
-{
-	100%{
-		transform: translateX(-3400px);
-	}
-}
-
-@keyframes highway
-{
-	100%{
-		transform: translateX(-3400px);
-	}
-}
-
-
-</style>
-	<link rel="stylesheet" type="text/css" href="web.css">
-	<title></title>
 </head>
-<body>
-<div class="web">
-	<div class="highway">
-		
-	</div>
-	<div class="city"></div>
-	<dir class="car">
-		<img src="car.png">
-	</dir>
-	<div class="wheel">
-		<img src="wheel.png" class="back-wheel">
-		<img src="wheel.png" class="front-wheel">
-	</div>
-</div>
+<body >
+<p ><h1 style="Algerian" >WELCOME TO MY FIRST BLOG ON HTML</h1></p>
+<marquee font-color="blue" direction="right" >BY B.GAYATHRI,1st yr,cse,gvp</marquee>
+<font color="black" face="vernada"><br /><i>If you are interested to learn html, then this blog would be useful to get an idea about it.
+You will be able to create your own web pages after reading this blog. This blog is created using html and css.
+This blog would be much helpful to beginners as each concept would be explained with several examples.
+You will be enjoying reading this blog. </i> </font>
+<p style="color:blue"><h3 style="color:blue">Contents</h3></p>
+<p style="color:blue"><a href="introduction to html.html">Introduction to html</a></p>
+<p style="color:blue"><a href="text formatting.html">Formatting text</a></p>
+<p style="color:blue"><a href="lists.html">lists</a></p>
+<p style="color:blue"><a href="tables.html">tables</a></p> 
+<p style="color:blue"><a href="links.html">links</a></p>
+<p style="color:blue"><a href="forms.html">forms</a></p>
+
+</form> 
 </body>
 </html>
