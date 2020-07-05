@@ -1,6 +1,6 @@
 # programming.github.io
 
-<!DOCTYPE HTML>
+
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="blog1.css" />
