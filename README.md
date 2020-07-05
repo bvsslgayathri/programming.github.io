@@ -2,7 +2,34 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="blog1.css" />
+<style>
+  
+body{
+font-size:20px;
+color:black;
 
+background-image:url("background.jpg");
+background-repear:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+}
+h1{
+font-family:Castellar;
+text-align:center;
+display:bold;
+}
+h3{
+font-family:Algerian;
+
+}
+marquee{
+font-family:MV Boli;
+color:#696969;
+overflow:hidden;
+
+}
+
+  </style>
 </head>
 <body >
 <p ><h1 style="Algerian" >WELCOME TO MY FIRST BLOG ON HTML</h1></p>
